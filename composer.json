@@ -1,0 +1,19 @@
+{
+    "name": "krzysztofzylka/reflection",
+    "description": "Reflection helper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Krzysztofzylka\\Reflection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Krzysztof Zylka",
+            "email": "krzysztofzylka@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
