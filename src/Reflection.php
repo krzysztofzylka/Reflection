@@ -164,6 +164,19 @@ class Reflection
     }
 
     /**
+     * Class has property
+     * @param object $className
+     * @param string $propertyName
+     * @return bool
+     */
+    public static function classHasProperty(object $className, string $propertyName): bool
+    {
+        $reflection = new ReflectionClass($className);
+
+        return $reflection->hasProperty('controller');
+    }
+
+    /**
      * Clear comment
      * @param array $comments PHPDocs data example ['/*', '* value']
      * @return array data as [key, value] (example [return, void])
